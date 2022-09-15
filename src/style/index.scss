@@ -1,0 +1,10 @@
+@import "./variables.scss";
+:root {
+  /* background-color: red; */
+  --main-bg-color: blue;
+}
+
+#app {
+  background-color: var(--main-bg-color);
+  background-color: $bgColor;
+}

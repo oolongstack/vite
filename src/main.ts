@@ -1,5 +1,8 @@
-import { res } from "./counter";
-console.log("你好啊");
-console.log(res);
+import { createApp } from "vue";
 
-export {};
+import App from "./App.vue";
+
+import "./style/index.scss";
+console.log(import.meta.env);
+
+createApp(App).mount("#app");
